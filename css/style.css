@@ -601,15 +601,16 @@ footer .text span a:hover{
     }
 }
 
-@keyframes words{
-    0%, 40%{
-        content: "Frontend Developer";
-    }
-    41%, 80%{
-        content: "Backend Developer";
-    }
-    81%, 100%{
-        content: "Graphic Designer";
-    }
-
+@keyframes words {
+  0%, 40% {
+    content: "Frontend Developer";
+  }
+  41%, 80% {
+    content: "Backend Developer";
+  }
+  81%, 100% {
+    content: "Full Stack Developer";
+  }
 }
+
+

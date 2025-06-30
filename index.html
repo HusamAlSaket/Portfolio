@@ -370,31 +370,15 @@
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <div class="icon">
-              <i class="fas fa-paint-brush"></i>
-            </div>
-            <div class="topic">Graphic Design</div>
+     <div class="icon">
+  <i class="fas fa-code"></i>
+</div>
+            <div class="topic">Frontend Development</div>
             <p>
-              I specialize in graphic design, creating unique and visually
-              striking pieces that showcase my abilities and creative approach.
-              Each design highlights my skills and serves as a powerful example
-              of my artistic expertise.
-            </p>
-          </div>
-          <div
-            class="box"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-delay="600"
-          >
-            <div class="icon">
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <div class="topic">Digital Marketing</div>
-            <p>
-              Skilled in digital marketing, with the ability to create and
-              execute effective online campaigns, leveraging SEO, social media,
-              and content marketing strategies to drive engagement and growth.
+              I build responsive, accessible, and interactive user interfaces
+              using modern frontend technologies like HTML, CSS, JavaScript,
+              React, and Next.js. I focus on clean design, performance, and
+              seamless user experience across all devices.
             </p>
           </div>
 
@@ -404,32 +388,15 @@
             data-aos-duration="1500"
             data-aos-delay="1000"
           >
-            <div class="icon">
-              <i class="fas fa-camera-retro"></i>
-            </div>
-            <div class="topic">Photography</div>
+     <div class="icon">
+  <i class="fas fa-database"></i>
+</div>
+            <div class="topic">Backend Development</div>
             <p>
-              I capture moments with creativity and precision, transforming them
-              into compelling visual stories. My keen eye for detail and
-              artistic approach allow me to produce stunning images that
-              resonate with viewers.
-            </p>
-          </div>
-          <div
-            class="box"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-delay="1200"
-          >
-            <div class="icon">
-              <i class="fas fa-tablet-alt"></i>
-            </div>
-            <div class="topic">Apps Devlopment</div>
-            <p>
-              Driven by a passion for app development, I create intuitive and
-              innovative applications that reflect my technical skills and
-              creativity. Each project showcases my dedication to building
-              seamless user experiences.
+              I develop secure and scalable server-side applications using PHP
+              and Laravel. With a solid grasp of RESTful APIs, MVC architecture,
+              and database design, I ensure smooth data flow and performance
+              behind the scenes of every application.
             </p>
           </div>
         </div>
@@ -462,7 +429,9 @@
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <button>Let's Chat</button>
+            <a href="https://www.linkedin.com/in/husamalsaket/" target="_blank">
+              <button>Let's Chat</button>
+            </a>
           </div>
         </div>
       </div>
@@ -471,10 +440,13 @@
     <!-- Footer Section -->
     <footer>
       <div class="text">
-        <span
-          >Created By <a href="">Husam ALSaket</a> | &#169;2024 All Rights
-          Reserved
-        </span>
+<span>
+  Created By <a href="">Husam ALSaket</a> | &#169;<span id="year"></span> All Rights Reserved
+</span>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
       </div>
     </footer>
 
@@ -485,7 +457,7 @@
     <script src="script.js"></script>
     <script>
       function downloadCV() {
-        window.location.href = './assets/cv.pdf';
+        window.location.href = "./assets/cv.pdf";
       }
     </script>
   </body>
